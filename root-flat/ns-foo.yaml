@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    client.lifecycle.config.k8s.io/mutation: ignore
+  name: foo
+  labels:
+    foo: bar
